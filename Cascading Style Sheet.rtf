@@ -1,0 +1,762 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\listtable 
+{\list\listhybrid
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'00.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc4\leveljc0\levelstartat1{\leveltext\'02\'01.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc3\leveljc0\levelstartat1{\leveltext\'02\'02.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc2\leveljc0\levelstartat1{\leveltext\'02\'03.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc1\leveljc0\levelstartat1{\leveltext\'02\'04.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'05.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc4\leveljc0\levelstartat1{\leveltext\'02\'06.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc3\leveljc0\levelstartat1{\leveltext\'02\'07.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc23\leveljc1\levelstartat1{\leveltext\'01\'B7;}{\levelnumbers;}\f1\jclisttab\tx0}\listid1 }}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\f0\fs22\lang9\par
+\b\fs32 Cascading Style Sheet (css)\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0\fs28  CSS define the appearance,attractive,awesome.\fs22\par
+{\pntext\f1\'B7\tab}\fs28 External style sheet\fs22\par
+
+\pard\sa200\sl276\slmult1\fs28\tab\tab <link rel="stylesheet" type="text/css" href="index.css">\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Internal style sheet\fs22\par
+
+\pard\sa200\sl276\slmult1\fs28\tab\tab <style>\par
+\tab\tab\tab <!-- write  your code here -->\par
+\tab\tab </style>\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Inline style sheet\fs22\par
+
+\pard\sa200\sl276\slmult1\fs28\tab\tab <p style="width : 10px;"> Here comes inline style method . </p>\par
+\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\fs28 Size :    point ::   20pt\fs22\par
+
+\pard\sa200\sl276\slmult1\fs28\tab\tab   pixel ::   20px\par
+\tab\tab   percentage :: 100%\par
+\tab\tab   em :: 0.7em\fs22\par
+\fs28\tab\tab\par
+\b Selector : \par
+\b0\tab selector \{\par
+\tab\tab css_property : value ;\par
+\tab\}\par
+
+\pard 
+{\listtext\f0\u10625?\tab}\ls1\ilvl8\fi-360\li720\sa200\sl276\slmult1 single Tag selector :\par
+
+\pard\sa200\sl276\slmult1\tab\tab span \{\par
+\tab\tab\tab width : 100px;     // apply to all span tag in html document\par
+\tab\tab\}\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 multiple Tag selector :\fs22\par
+
+\pard\sa200\sl276\slmult1\fs28\tab\tab p,h1,div  \{\par
+\tab\tab\tab width : 100px;      // apply to all tag of p,h1 and div\par
+\tab\tab\}\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 class selector : \par
+
+\pard\sa200\sl276\slmult1\tab\tab <p class = "para"></p>\par
+\tab\tab <span class = "para"></span>\par
+\tab\tab <style>\par
+\tab\tab\tab .para \{\par
+\tab\tab\tab\tab font-family : tahoma;\par
+\tab\tab\tab\}\par
+\tab\tab </style>\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 id selector :\par
+
+\pard\sa200\sl276\slmult1\tab\tab <p id = "identity"> </p>\par
+\tab\tab <style>\par
+\tab\tab\tab #identity \{\par
+\tab\tab\tab\tab color : red;\par
+\tab\tab\tab\}\par
+\tab\tab </style>\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 universal selector :\par
+
+\pard\sa200\sl276\slmult1\tab\tab <style>\par
+\tab\tab\tab *\{\par
+\tab\tab\tab\tab color : blue;\par
+\tab\tab\tab\}\par
+\tab\tab </style>\par
+\par
+\par
+\b Background\b0 :\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 body backgroung color :\par
+
+\pard\sa200\sl276\slmult1\tab\tab body \{\par
+\tab\tab\tab background-color : #ff0000;    //  rgb(255,0,0)  or red\par
+\tab\tab\tab background-image : url("image.jpg");\par
+\tab\tab\}\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 body backgroung image : \par
+
+\pard\sa200\sl276\slmult1\tab\tab body \{\par
+\tab\tab\tab background-image : url("image.jpg");\par
+\tab\tab\tab backgroung-repeat :  no-repeat ; \par
+\tab\tab\tab\tab\tab   // repeat or repeat-x  or repeat-y\par
+\tab\tab\tab backgroung-position :  right top; \par
+\tab\tab\tab\tab\tab //    left or bottom  or `100px(x)  50px(y)`\par
+\tab\tab\tab background-size : cover ;\par
+\tab\tab\tab\tab\tab // contain or `100%(width) 100%(height)` \par
+\tab\tab\tab background-attachment : fixed;\par
+\tab\tab\tab\tab\tab // scroll \par
+\tab\tab\tab background : color url() position/size repeat attachment;\par
+\tab\tab\tab\tab\tab // short hand method\tab\par
+\tab\tab\}\par
+\b\par
+Styling text:\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Paragraph styling \b\par
+
+\pard\sa200\sl276\slmult1\b0\tab\tab p \{\par
+\tab\tab\tab color : blue;\par
+\tab\tab\tab text-align : left ; \par
+\tab\tab\tab // center or right or justify(every line has equal width)\par
+\tab\tab\tab text-decoration : underline ;\par
+\tab\tab\tab // overline  or line-through or none\par
+
+\pard\li2160\sa200\sl276\slmult1 text-transform : uppercase;\par
+// lowercase or capitalize \par
+text-indent : 50px; // add space to first line\par
+line-height : 30px;\par
+letter-spacing : 10px;\par
+word-spacing : 10px;\par
+direction : rtl;                   // ltr \par
+white-space : nowrap ;\par
+
+\pard\sa200\sl276\slmult1\tab\tab\}\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 change font :\par
+
+\pard\sa200\sl276\slmult1\tab\tab p\{\par
+\tab\tab\tab font-family : tahoma, arial, "times new roman ";\par
+\tab\tab\tab font-size : 20px;\par
+\tab\tab\tab font-style : italic ;   // oblique  or normal \par
+
+\pard\li2160\sa200\sl276\slmult1 font-weight : bold;    // bolder or lighter  or  100-900\par
+font-variant : small-caps; //  normal \par
+font : style variant weight size/line height family ;\par
+
+\pard\li1440\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\par
+\b Comment :   \par
+\b0\tab multiline comment : /* */\par
+\b Priority :  \b0 inline style > internal style > external style\par
+\par
+\b List Style : \par
+\b0\tab <ul>\par
+\tab\tab <li> Item1</li>\par
+\tab\tab <li> Item2</li>\par
+\tab <ul>\par
+\tab <ol>\par
+\tab\tab <li> Item1</li>\par
+\tab\tab <li> Item2</li>\par
+\tab <ol>\par
+\par
+\tab <style>\par
+\tab\tab ul \{\par
+\tab\tab\tab list-style-type : none;  // circle or square or disc \par
+\tab\tab\tab list-style-image : url("image.url");\par
+\tab\tab\}\par
+\tab\tab\par
+\tab\tab ol \{\par
+\tab\tab\tab list-style-type :  upper-roman;\par
+\tab\tab\tab // lower-roman or  upper-alpha or lower-alpha\par
+\tab\tab\tab // decimal or decimal-leading-zero or none\par
+\tab\tab\tab list-style-image : url("image.url");\par
+\tab\tab\}\par
+\par
+\tab </style>\par
+\par
+\b Border : \b0\par
+\tab p \{\par
+\tab\tab border-style : solid; // dashed or double or dotted or groove\par
+\tab\tab border-width : 3px;\par
+\tab\tab border-color : red;\par
+\par
+\tab\tab border : 3px solid black;\par
+\par
+\tab\tab // outline is outside the border\par
+\tab\tab outline -style : solid; // dashed or double or dotted or groove\par
+\tab\tab outline -width : 3px;\par
+\tab\tab outline -color : red;\par
+\par
+\tab\tab outline : 3px solid black;\par
+\tab\}\par
+\par
+\b Margin : \par
+\tab\b0 p \{\par
+
+\pard\li1440\sa200\sl276\slmult1 margin-top : 5px;\par
+margin-bottom : 5px;\par
+margin-right : 5px;\par
+margin-left : 5px;\par
+\par
+margin : top right bottom left; \par
+\tab   :  top rigth-left bottom;\par
+ \tab   : top-bottom left-right;\par
+\tab // margin : 0px auto;  <!-- align center -->\par
+\par
+
+\pard\sa200\sl276\slmult1\tab\}\b\par
+\b0\par
+\b Padding : \par
+\tab\b0 p \{\par
+
+\pard\li1440\sa200\sl276\slmult1 padding-top : 5px;\par
+padding-bottom : 5px;\par
+padding-right : 5px;\par
+padding-left : 5px;\par
+\par
+padding : top right bottom left; \par
+\tab     :  top rigth-left bottom;\par
+ \tab     : top-bottom left-right;\par
+\par
+
+\pard\sa200\sl276\slmult1\tab\}\par
+\par
+\b Dimension :\par
+\b0\tab p \{\par
+
+\pard\li1440\sa200\sl276\slmult1 height : 500px;\par
+width : 300px;\par
+max-height : 400px;\par
+max-width : 400px;\par
+min-height : 200px;\par
+min-height : 200px;\par
+
+\pard\sa200\sl276\slmult1\tab\}\par
+\par
+\b Display : \par
+\tab -> \b0 use to change the display like block level element and inline \tab      \tab  \tab      element ,etc.\par
+
+\pard\li720\sa200\sl276\slmult1 Block-level : \par
+\tab <p></p>\par
+\tab <div></div>\par
+\tab <h1></h1>\par
+Inline : \par
+\tab <span></span>\par
+\tab <img>\par
+\tab <a></a>\par
+\par
+p \{\par
+\tab display : block;  // inline or none or inline-block\par
+\}\par
+\par
+
+\pard\sa200\sl276\slmult1\b Design Table :\par
+
+\pard\li720\sa200\sl276\slmult1\b0 table,th,td \{\par
+\tab border : 1px solid black;\par
+\tab border-collapse : collapse;\par
+\}\par
+table \{\par
+\tab width : 100%;\par
+\}\par
+th \{\par
+\tab background-color : green;\par
+\tab height  :150px;\par
+\tab text-align : left;\par
+\tab vertical-align : top;\par
+\}\par
+td \{\par
+\tab padding : 10px;\par
+\}\par
+\par
+
+\pard\sa200\sl276\slmult1\b Designing div :\b0\par
+
+\pard\li720\sa200\sl276\slmult1 div \{\par
+\tab color : red;\par
+\tab border : 1px solid  black;\par
+\tab font-family : tahoma;\par
+\tab font-size  : 14px;\par
+\tab background : yellow;\par
+\tab margin : 0px auto;        // center of page\par
+\tab height : 500px;\par
+\tab width : 200px;\par
+\tab padding : 20px;  \par
+\}\par
+
+\pard\sa200\sl276\slmult1\par
+\b Anchot tag:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 a \{\par
+
+\pard\li1440\sa200\sl276\slmult1 color : red;\par
+
+\pard\li720\sa200\sl276\slmult1\tab border : 1px solid  black;\par
+\tab font-family : tahoma;\par
+\tab font-size  : 14px;\par
+\tab background : yellow;\par
+\tab display : inline-block;\par
+\tab width : 100px;  // not work with inline display, same for height.\par
+\tab height : 300px;\par
+\tab float : left; // right\par
+\}\par
+\par
+
+\pard\sa200\sl276\slmult1\b Image Tag:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 img \{\par
+
+\pard\li1440\sa200\sl276\slmult1 width : 300px;\par
+height : 200px;\par
+border : 1px solid black;\par
+clear : left;   // right or both\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+\par
+
+\pard\sa200\sl276\slmult1\b Position :\par
+
+\pard\li720\sa200\sl276\slmult1\b0 div \{\par
+
+\pard\li1440\sa200\sl276\slmult1 border : 1px solid black;\par
+width : 600px;\par
+height : 400px;\par
+background-color : red;\par
+postion : static ;\par
+/*  static -> default position\par
+      absolute -> override all tags and relative to boundary;\par
+      relative -> relative to parent \par
+      sticky  -> fixes at the border\par
+      fixed  -> fixed the element to page\par
+*/\par
+z-index : 4;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+\par
+
+\pard\sa200\sl276\slmult1\b Text overflow:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 div \{\par
+\tab overflow : hidden;  // scroll \par
+\}\par
+
+\pard\sa200\sl276\slmult1\b Visibility :\par
+
+\pard\li720\sa200\sl276\slmult1\b0 p \{\par
+\tab visibility : hidden ;  // visible\par
+\}\par
+
+\pard\sa200\sl276\slmult1\b Opacity :\par
+
+\pard\li720\sa200\sl276\slmult1\b0 img   \{\par
+\tab opacity : 0 ;   / / 0-1\par
+\}\par
+
+\pard\sa200\sl276\slmult1\par
+\b Pseudo-element : \par
+
+\pard\li720\sa200\sl276\slmult1\b0 p::first-line \{\par
+\tab css property : value;\par
+\}\b\par
+\b0 p::first-letter \{\par
+\tab css property : value;\par
+\}\b\par
+\b0 p::before\{\par
+\tab content : "devarsh";\par
+\}\par
+p::after\{\par
+\tab content : url("image.jpg");\par
+\}\par
+\par
+
+\pard\sa200\sl276\slmult1\b Pseudo-class : \par
+
+\pard\li720\sa200\sl276\slmult1\b0 input: checked \{\par
+\tab css property: value;\par
+\}\par
+input: disabled\{\par
+\tab css property: value;\par
+\}\par
+input: enabled \{\par
+\tab css property: value;\par
+\}\par
+input: focus \{\par
+\tab css property: value;\par
+\}\par
+input: optional \{\par
+\tab css property: value;   // for non required form element\par
+\}\par
+input: required \{\par
+\tab css property: value;\par
+\}\par
+input: read-only \{\par
+\tab css property: value;\par
+\}\par
+input: read-write \{\par
+\tab css property: value; // default for all element\par
+\}\par
+input: valid \{\par
+\tab css property: value;\par
+\}\par
+input: invalid \{\par
+\tab css property: value;\par
+\}\par
+
+\pard\sa200\sl276\slmult1\par
+
+\pard\sa200\sl276\slmult1\qc\b\fs32 Cascading Style Sheet 3 (css3)\par
+\par
+
+\pard\sa200\sl276\slmult1\fs28 Color Prefixes :\fs32\par
+\b0\fs28\tab div \{\par
+
+\pard\li1440\sa200\sl276\slmult1 -webkit-color: #fff;      // for chrome and safari\par
+-moz-color : #fff;         // for mozilla\par
+-0-color : #fff;              // for opera\par
+-ms-color: #fff;            // for Internet explorer\par
+
+\pard\sa200\sl276\slmult1\tab\}\par
+\tab\par
+\b Color scheme : : \par
+\tab RGB: \b0 (red, green, blue)\b\par
+\tab\tab\b0 div \{\par
+
+\pard\li1440\sa200\sl276\slmult1\tab background : rgb(255,0,0) ;\par
+\}\par
+
+\pard\sa200\sl276\slmult1\b\par
+\tab RGBA: \b0 (red, green, blue, opacity)\b\par
+\tab\tab\b0 div \{\par
+
+\pard\li1440\sa200\sl276\slmult1\tab background : rgba(255,0,0, opacity) ; // opacity  = 0-1\par
+\}\par
+
+\pard\sa200\sl276\slmult1\b\tab HSL: \b0 (hue,saturation,lightness)\b\par
+\tab\tab\b0 div \{\par
+
+\pard\li1440\sa200\sl276\slmult1\tab background : hsl(0, 100%, 30%) ;\par
+\}\par
+
+\pard\sa200\sl276\slmult1\b\tab HSLA: \b0 (hue,saturation,lightness,opacity)\b\par
+\tab\tab\b0 div \{\par
+
+\pard\li1440\sa200\sl276\slmult1\tab background : hsla(0, 100%, 30%,0.2) ;   // opacity: 0-1\par
+\}\par
+
+\pard\sa200\sl276\slmult1\par
+\b Round Corner to element:\par
+
+\pard\li720\sa200\sl276\slmult1\par
+\b0 div \{\par
+
+\pard\li1440\sa200\sl276\slmult1 width : 300px;\par
+height : 300px;\par
+border : 1px solid black;\par
+\par
+border-top-left-radius : 20px;\par
+border-top-right-radius : 20px;\par
+border-bottom-left-radius : 20px;\par
+border-bottom-right-radius : 20px;\par
+\par
+background: red;   //  url("image.jpg");\par
+\par
+/*\par
+* border-radius: top-left top-right bottom-left bottom-right;\par
+*border-radius : top-left top-right/bottom-left bottom-right;\par
+*border-radius : top-left/bottom-left top-right/bottom-right;\par
+*border-radius : all-corner;\par
+*/\par
+\par
+border-radius : 50px/15px;   // for elliptical  border\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+\par
+
+\pard\sa200\sl276\slmult1\b Border Image:\b0\par
+
+\pard\li720\sa200\sl276\slmult1 div \{\par
+            width: 400px;\par
+            height: 400px;\par
+            border: 1px solid black;\par
+            border-image-source: url("a.jpg");\par
+            border-image-slice: 100;\par
+            border-image-width: 20px;\par
+            border-image-repeat: repeat;\par
+            /* strech or repeat */\par
+\par
+            /*\par
+            * border-image : url slice repeat;            \par
+            */\par
+        \}\b\par
+\b0\par
+\par
+
+\pard\sa200\sl276\slmult1\b Multiple Background Image:\par
+\par
+
+\pard\li720\sa200\sl276\slmult1\b0 div \{\par
+            width: 500px;\par
+            height: 300px;\par
+            border: 2px solid black;\par
+            background-image: url("a.jpg"), url("b.jpg");\par
+            background-position: right bottom, left top;\par
+            background-repeat: no-repeat, no-repeat;\par
+            background-size: 500px 200px, 500px 100px;\par
+            /*\par
+            background: url("a.jpg") right bottom/100px 200px no-repeat ,\par
+                        url("b.jpg") left top/100px 200px no-repeat  ;\par
+            */\par
+        \}\par
+
+\pard\sa200\sl276\slmult1\b Background Image:\par
+\par
+
+\pard\li720\sa200\sl276\slmult1\b0 div \{\par
+            width: 500px;\par
+            height: 300px;\par
+            border: 10px dashed transparent;\par
+            background: url("a.jpg") no-repeat;\par
+            padding: 30px;\par
+            color: white;\par
+            background-origin: padding-box;\par
+            /* content-box or paddin-box */\par
+            background-clip: content-box;\par
+            /*padding-box or border-box*/\par
+        \}\par
+\par
+
+\pard\sa200\sl276\slmult1\b Box Sizing : \par
+\tab\b0 div \{\par
+
+\pard\li1440\sa200\sl276\slmult1 box-sizing : border-box;  // content-box or padding-box\par
+
+\pard\sa200\sl276\slmult1\tab\}\par
+\par
+\b Gradient : \par
+\tab\b0 div \{\par
+
+\pard\li1440\sa200\sl276\slmult1 width: 500px;\par
+ height: 300px;\par
+border: 2px solid black;\par
+background: repeating-linear-gradient(yellow 10%, blue 30%);\par
+\par
+/*\par
+*background : linear-gradient(to top left, color1,color2,...);\par
+*background:  linear-gradient(120deg,color1 %,color2 %);\par
+*background: linear-gradient(to left, color1 ,color2);\par
+*/\par
+\par
+
+\pard\sa200\sl276\slmult1\tab\}\par
+\b\par
+Shadow :\par
+
+\pard\li720\sa200\sl276\slmult1\b0 div \{\par
+            width: 300px;\par
+            height: 200px;\par
+            border: 1px solid black;\par
+            overflow: hidden;\par
+            white-space: nowrap;\par
+            text-overflow: ellipsis;\par
+            /* clip or */\par
+        \}\par
+        \par
+        div \{\par
+            width: 300px;\par
+            height: 200px;\par
+            border: 1px solid black;\par
+            word-wrap: break-word;\par
+        \}\par
+        \par
+        div:hover \{\par
+            overflow: visible;\par
+        \}\par
+
+\pard\sa200\sl276\slmult1\par
+\b External fonts :\par
+
+\pard\li720\sa200\sl276\slmult1         \b0 div \{\par
+            width: 200px;\par
+            height: 100px;\par
+            border: 2px solid black;\par
+            font-family: first;\par
+        \}\par
+        \par
+        @font-face \{\par
+            font-family: first;\par
+            src: url("YourSignature.ttf");\par
+        \}\par
+\b\par
+
+\pard\sa200\sl276\slmult1 Wed Font from Link :\par
+
+\pard\li720\sa200\sl276\slmult1\b0 <link href="{{\field{\*\fldinst{HYPERLINK https://fonts.googleapis.com/css?    family=Lexend+Zetta&display=swap }}{\fldrslt{https://fonts.googleapis.com/css?    family=Lexend+Zetta&display=swap\ul0\cf0}}}}\f0\fs28 " rel="stylesheet">\par
+    <style>\par
+        div \{\par
+            width: 200px;\par
+            height: 100px;\par
+            border: 2px solid black;\par
+            font-family: 'Lexend Zetta';\par
+        \}\par
+    </style> \par
+
+\pard\sa200\sl276\slmult1\tab\par
+\b Transition :\par
+        \b0 div \{\par
+            width: 300px;\par
+            height: 200px;\par
+            background: red;\par
+            transition: all 0.1s linear;\par
+\par
+
+\pard\li720\sa200\sl276\slmult1 /* \par
+*\tab transition-property : width;\par
+*\tab transition-duration: 1s;     // 1ms\par
+*\tab transition-timing-function: linear;\par
+*\tab\tab ` ease-in  or ease-out  or ease-in-out\par
+*\tab transition-delay: 1s;\par
+*/\par
+
+\pard\sa200\sl276\slmult1\par
+        \}\par
+        \par
+        div:hover \{\par
+            width: 500px;\par
+            background: yellow\par
+        \}\par
+\b 2D Transform:\par
+\par
+        \b0 div \{\par
+            width: 200px;\par
+            height: 200px;\par
+            background: red;\par
+            transition: all 0.3s linear;\par
+        \}\par
+        \par
+        div:hover \{\par
+            transform: translate(20px, 20px);\par
+            transform: scale(2, 2);\par
+            transform: rotate(90deg);\par
+            transform: skew(20deg, 20deg);\par
+        \}\par
+
+\pard\li720\sa200\sl276\slmult1\b\par
+
+\pard\sa200\sl276\slmult1 3D Transform:\par
+\par
+        \b0 div \{\par
+            width: 200px;\par
+            height: 200px;\par
+            background: red;\par
+            transition: all 0.3s linear;\par
+        \}\par
+        \par
+        div:hover \{\par
+            /*\par
+            transform: perspective(200px) rotate3d(2, 3, 5, 180deg);\par
+            transform: perspective(100px) translate3d(30px, 20px, 10px);*/\par
+            transform: perspective(100px) scale3d(2, 2, 3);\par
+        \}\par
+\par
+\b  Animation:\par
+\tab\b0 div \{\par
+            width: 200px;\par
+            height: 200px;\par
+            background: red;\par
+            position: relative;\par
+            animation-name: test;\par
+            animation-duration: 5s;\par
+            animation-iteration-count: infinite;\par
+            animation-direction: alternate-reverse;\par
+            /* 'alternate' or 'reverse' */\par
+            animation-delay: 1s;\par
+            animation-timing-function: linear;\par
+            /* 'ease-in' or 'ease-out' or 'ease-in-out'*/\par
+        \}\par
+        \par
+        @keyframes test \{\par
+            0% \{\par
+                left: 0px;\par
+                top: 0px;\par
+                background: yellow;\par
+            \}\par
+            25% \{\par
+                left: 0px;\par
+                top: 100px;\par
+                background: brown;\par
+            \}\par
+            50% \{\par
+                left: 100px;\par
+                top: 100px;\par
+                background: pink;\par
+            \}\par
+            75% \{\par
+                left: 100px;\par
+                top: 0px;\par
+                background: blue;\par
+            \}\par
+            100% \{\par
+                left: 0px;\par
+                top: 0px;\par
+                background: purple;\par
+            \}\par
+        \}\par
+\b\par
+Web Column:\par
+
+\pard\sa200\sl276\slmult1\tab\b0 div \{\par
+            /*-webkit-column-count: 2;\par
+            -webkit-column-width: 300px;*/\par
+            -webkit-columns: 300px 2;\par
+            /*-webkit-column-rule-width: 2px;\par
+            -webkit-column-rule-style: solid;\par
+            -webkit-column-rule-color: black;*/\par
+            -webkit-column-rule: 2px solid black;\par
+        \}\par
+        \par
+        h1 \{\par
+            -webkit-column-span: all;\par
+        \}\par
+\par
+\tab\b Note:\b0\par
+\tab <body>\par
+\tab\tab <div>\par
+\tab\tab\tab <h1></h1>\par
+\tab\tab </div>\par
+\tab </body>\par
+
+\pard\li720\sa200\sl276\slmult1\b\par
+
+\pard\sa200\sl276\slmult1 Resize :\par
+\tab\b0 h1 \{\par
+            text-align: center;\par
+            font-family: tahoma;\par
+            text-decoration: underline;\par
+        \}\par
+        \par
+        div \{\par
+            margin: 0px auto;\par
+            width: 500px;\par
+            border: 1px solid black;\par
+            text-align: justify;\par
+            resize: both;\par
+            /* 'left' or 'right'*/\par
+            overflow: auto;\par
+        \}\par
+
+\pard\sa200\sl276\slmult1\par
+
+\pard\li720\sa200\sl276\slmult1\par
+\par
+\par
+\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\fs22\par
+}
+ 
