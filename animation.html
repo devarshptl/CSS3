@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D Transform</title>
+
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background: red;
+            position: relative;
+            animation-name: test;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            /* 'alternate' or 'reverse' */
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            /* 'ease-in' or 'ease-out' or 'ease-in-out'*/
+        }
+        
+        @keyframes test {
+            0% {
+                left: 0px;
+                top: 0px;
+                background: yellow;
+            }
+            25% {
+                left: 0px;
+                top: 100px;
+                background: brown;
+            }
+            50% {
+                left: 100px;
+                top: 100px;
+                background: pink;
+            }
+            75% {
+                left: 100px;
+                top: 0px;
+                background: blue;
+            }
+            100% {
+                left: 0px;
+                top: 0px;
+                background: purple;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

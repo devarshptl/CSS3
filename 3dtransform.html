@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D Transform</title>
+
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background: red;
+            transition: all 0.3s linear;
+        }
+        
+        div:hover {
+            /*
+            transform: perspective(200px) rotate3d(2, 3, 5, 180deg);
+            transform: perspective(100px) translate3d(30px, 20px, 10px);*/
+            transform: perspective(100px) scale3d(2, 2, 3);
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
